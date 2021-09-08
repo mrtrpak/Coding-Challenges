@@ -1,27 +1,27 @@
 // Given a string of characters as input, 
 // write a function that returns the characters reversed
 
-const reverseString1 = string => {
-  console.time("variant 1");
-
-  (console.log(string.split("").reverse().join("")));
-
-  console.timeEnd("variant 1");
+const checkTime = (func, id) => {
+  console.time(`variant ${id}`);
+  func;
+  console.timeEnd(`variant ${id}`);
 };
 
-reverseString1("hello");
+const reverseString1 = string => (
+  console.log(string.split("").reverse().join(""))
+);
+
+checkTime(reverseString1("flabbergasted"), 1);
 
 
 const reverseString2 = string => {
-  console.time("variant 2");
   let reversedString = [];
   
   for (let i = string.length - 1; i >= 0; i--) {
     reversedString.push(string[i]);
   };
 
-  (console.log(reversedString.join('')));
-  console.timeEnd("variant 2");
+  return console.log(reversedString.join(''));
 };
 
-reverseString2("flabbergasted");
+checkTime(reverseString2("flabbergasted"), 2);
