@@ -16,7 +16,6 @@ const checkForPalindrome1 = string => {
 
 checkForPalindrome1("i am A Test SenTence");
 checkForPalindrome1("Holloh");
-checkForPalindrome1("Was it a car or a cat I saw");
 checkForPalindrome1("was it a car or a cat I saw?");
 
 
