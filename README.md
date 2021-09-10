@@ -5,3 +5,4 @@
 - String Reversal
 - Palindrome
 - Integer Reversal
+- Integer Divisibility Fizz Buzz challenge
