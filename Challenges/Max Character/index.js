@@ -42,7 +42,6 @@ const maxCharacter2 = string => {
     };
   };
 
-  console.log(charMap);
   return console.log(`${maxChar} appears ${max} times in '${string}'`);
 };
 
