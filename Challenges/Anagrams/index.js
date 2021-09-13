@@ -1,12 +1,12 @@
 // Anagrams are words or phrases that contain the same number of characters. Create a function to check for this.
 
 const anagrams1 = (string1, string2) => {
-  string1 = string1.replace(/[^\w]/g, "").toLowerCase();
-  string2 = string2.replace(/[^\w]/g, "").toLowerCase();
+  const setString1 = string1.replace(/[^\w]/g, "").toLowerCase();
+  const setString2 = string2.replace(/[^\w]/g, "").toLowerCase();
 
   // get the character map of both strings
-  const charMap1 = getCharMap(string1);
-  const charMap2 = getCharMap(string2);
+  const charMap1 = getCharMap(setString1);
+  const charMap2 = getCharMap(setString2);
 
   /* Next, we loop through each character in the charMapA, 
   and check if it exists in charMapB and has the same value as
@@ -33,3 +33,20 @@ const getCharMap = string => {
 
 anagrams1("listen", "silEnt!");
 anagrams1("dormitory", "dirty Room");
+
+
+const anagrams2 = (string1, string2) => {
+  const setString1 = string1.replace(/[^\w]/g, '').toLowerCase();
+  const setString2 = string2.replace(/[^\w]/g, '').toLowerCase();
+
+  sortString(setString1) === sortString(setString2) ?
+    console.log(`'${string1}' IS an anagram of '${string2}'.`) :
+    console.log(`'${string1}' is NOT an anagram of '${string2}'.`);
+};
+
+// function to sort the strings
+sortString = string => {
+  return string.split("").sort().join("")
+}
+
+anagrams2("listen", "siLent?");
