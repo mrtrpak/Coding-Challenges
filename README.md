@@ -6,3 +6,4 @@
 - Palindrome
 - Integer Reversal
 - Integer Divisibility Fizz Buzz challenge
+- Max Character
