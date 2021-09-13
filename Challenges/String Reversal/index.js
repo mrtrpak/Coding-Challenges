@@ -21,7 +21,7 @@ const reverseString2 = string => {
     reversedString.push(string[i]);
   };
 
-  return console.log(reversedString.join(''));
+  return console.log(reversedString.join(""));
 };
 
 checkTime(reverseString2("flabbergasted"), 2);
