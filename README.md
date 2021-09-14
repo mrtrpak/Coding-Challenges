@@ -10,3 +10,4 @@
 - Anagrams
 - Number of Vowels in String
 - Array Chunking
+- Reverse Array
