@@ -9,3 +9,4 @@
 - Max Character
 - Anagrams
 - Number of Vowels in String
+- Array Chunking
