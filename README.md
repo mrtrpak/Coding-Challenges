@@ -7,3 +7,5 @@
 - Integer Reversal
 - Integer Divisibility Fizz Buzz challenge
 - Max Character
+- Anagrams
+- Number of Vowels in String
