@@ -12,3 +12,4 @@
 - Array Chunking
 - Reverse Array
 - Reverse Words
+- Reverse Phrase
