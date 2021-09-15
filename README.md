@@ -14,3 +14,4 @@
 - Reverse Words
 - Reverse Phrase
 - Capitalize All Words
+- Caesar Cipher
