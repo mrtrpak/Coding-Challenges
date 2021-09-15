@@ -13,3 +13,4 @@
 - Reverse Array
 - Reverse Words
 - Reverse Phrase
+- Capitalize All Words
