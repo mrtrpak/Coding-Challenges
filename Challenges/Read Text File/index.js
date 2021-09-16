@@ -23,3 +23,10 @@ const readTxtFile = () => {
 };
 
 readTxtFile();
+
+
+const fileUrl = "./index.txt";
+
+fetch(fileUrl)
+   .then( r => r.text() )
+   .then( t => console.log(t, 'console log') );
