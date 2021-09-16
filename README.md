@@ -15,6 +15,12 @@
 - Reverse Phrase
 - Capitalize All Words
 - Caesar Cipher
+- Create Text File
+- Text File for Input
+- Ransom Note
+- Mean, Median, Mode
+- Two Sum
+- Sieve of Eratosthenes
 
 
 ## FS module
