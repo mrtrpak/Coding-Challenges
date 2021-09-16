@@ -1,0 +1,3 @@
+The mean is 49
+The median is 9
+The mode/s are/is 5
