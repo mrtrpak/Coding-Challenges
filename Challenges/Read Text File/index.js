@@ -25,8 +25,12 @@ const readTxtFile = () => {
 readTxtFile();
 
 
-const fileUrl = "./index.txt";
+const readTextFile2 = () => {
+  const fileUrl = "./index.txt";
+  
+  fetch(fileUrl)
+  .then( response => response.text() )
+  .then( t => console.log(t, 'console log') );
+};
 
-fetch(fileUrl)
-   .then( r => r.text() )
-   .then( t => console.log(t, 'console log') );
+readTextFile2();
