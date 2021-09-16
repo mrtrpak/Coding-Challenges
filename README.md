@@ -15,3 +15,12 @@
 - Reverse Phrase
 - Capitalize All Words
 - Caesar Cipher
+
+
+## FS module
+
+- write file
+- append file
+- open file
+- delete(unlink) file
+- rename file
