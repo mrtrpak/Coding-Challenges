@@ -4,7 +4,7 @@ let data = "You successfully created a text file.";
 
 // write file will create a new file with the specified data in it. If file
 // already exists it will replace the file.
-fs.writeFile("index.txt", data, err => {
+fs.writeFile("index.txt", data + "/r/n", err => {
   if (err) throw err;
 });
 
