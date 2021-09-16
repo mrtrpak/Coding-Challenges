@@ -30,7 +30,7 @@ const readTextFile2 = () => {
   
   fetch(fileUrl)
   .then( response => response.text() )
-  .then( t => console.log(t, 'console log') );
+  .then( text => console.log(text, 'console log') );
 };
 
 readTextFile2();
