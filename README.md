@@ -22,6 +22,7 @@
 - Two Sum
 - Sieve of Eratosthenes
 - Max Profit
+- Fibonacci
 
 
 ## FS module
