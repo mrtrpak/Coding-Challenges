@@ -21,6 +21,7 @@
 - Mean, Median, Mode
 - Two Sum
 - Sieve of Eratosthenes
+- Max Profit
 
 
 ## FS module
