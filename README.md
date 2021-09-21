@@ -26,6 +26,7 @@
 - Fibonacci Memoized
 - Staircase
 - Pyramid
+- Matrix Spiral
 
 
 ## FS module
