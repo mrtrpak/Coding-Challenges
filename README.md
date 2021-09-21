@@ -23,6 +23,9 @@
 - Sieve of Eratosthenes
 - Max Profit
 - Fibonacci
+- Fibonacci Memoized
+- Staircase
+- Pyramid
 
 
 ## FS module
