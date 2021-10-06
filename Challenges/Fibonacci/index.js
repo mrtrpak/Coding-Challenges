@@ -8,3 +8,18 @@ const fibonacci1 = number => {
 };
 
 fibonacci1(15);
+
+const fibonacci2 = number => {
+  const series = [1, 1];
+
+  for (let i = 2; i < number; i++) {
+    const a = series[i - 1];
+    const b = series[i - 2];
+
+    series.push(a + b);
+  }
+
+  return console.log(series[number - 1]);
+};
+
+fibonacci2(15);
