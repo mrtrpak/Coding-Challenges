@@ -13,3 +13,17 @@ const fibonacci1 = (element, cache = []) => {
 
   return console.log(cache[element]);
 };
+
+const fibonacci2 = element => {
+  const cache = {};
+  
+  return (...args) => {
+    if (cache[args])
+      return console.log(cache[args]);
+
+    const output = element.apply(this, args);
+    cache[args] = output;
+
+    return console.log(output);
+  }; 
+};
