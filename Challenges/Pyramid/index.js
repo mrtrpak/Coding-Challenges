@@ -14,3 +14,21 @@ const pyramid = number => {
 
   return levels;
 };
+
+const _pyramid = (number, row = 0, level = "", levels = "") => {
+  if (number === row) return levels;
+
+  if (2 * number - 1 === level.length)
+    return _pyramid(number, row + 1, "", levels + level + "\n");
+
+  const midpoint = Math.floor((2 * number - 1) / 2);
+  return _pyramid(
+    number,
+    row,
+    level +
+      (midpoint - row <= level.length && level.length <= midpoint + row
+        ? "#"
+        : " "),
+    levels
+  );
+};
